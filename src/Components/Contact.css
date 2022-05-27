@@ -1,0 +1,38 @@
+.Contact {
+  margin: 2.5rem;
+}
+
+.Socials{
+    cursor: pointer;
+}
+
+#GitHub {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+#Instagram {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+#Twitter {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+#Mail {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.Copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.Copyright p {
+  font-size: 1rem;
+}

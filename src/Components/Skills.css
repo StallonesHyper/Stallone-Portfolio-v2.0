@@ -1,0 +1,48 @@
+.Skills {
+  margin: 2.5rem;
+}
+
+.Row1,
+.Row2,
+.Row3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Technologies {
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 10rem;
+  list-style: none;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+li:hover {
+  background-color: rgb(236, 236, 236);
+}
+
+.TechImg {
+  height: 30px;
+  width: 30px;
+  padding: 3px;
+}
+
+/* 
+NOTE: Improvise On Technologies Section 
+USe Grids And Make Appealing Layout  */
+
+@media only screen and (max-width: 940px) {
+  .Row1,
+  .Row2,
+  .Row3 {
+    flex-direction: column;
+  }
+}
