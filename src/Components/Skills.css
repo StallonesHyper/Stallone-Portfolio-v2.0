@@ -11,7 +11,6 @@
 }
 
 .Technologies {
-  margin-top: 20%;
   margin-bottom: 20%;
 }
 
@@ -35,6 +34,13 @@ li:hover {
   padding: 3px;
 }
 
+.ResponsiveTech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
 /* 
 NOTE: Improvise On Technologies Section 
 USe Grids And Make Appealing Layout  */
@@ -44,5 +50,20 @@ USe Grids And Make Appealing Layout  */
   .Row2,
   .Row3 {
     flex-direction: column;
+  }
+  .ResponsiveTech {
+    display: block;
+    text-align: center;
+  }
+  .Row1,
+  .Row2,
+  .Row3 {
+    display: none;
+  }
+
+  .TechImg {
+    height: 50px;
+    width: 50px;
+    padding: 3px;
   }
 }

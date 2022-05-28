@@ -14,10 +14,22 @@ function Contact() {
       <br />
       <br />
       <div className="Socials">
-        <FaGithub className="Social" id="GitHub"></FaGithub>
-        <HiOutlineMailOpen className="Social" id="Mail"></HiOutlineMailOpen>
-        <BsInstagram className="Social" id="Instagram"></BsInstagram>
-        <BsTwitter className="Social" id="Twitter"></BsTwitter>
+        <a href="https://github.com/StallonesHyper">
+          <FaGithub className="Social" id="GitHub"></FaGithub>
+        </a>
+        {/* </FaGithub> */}
+        <a href="mailto:stallonefernandess@gmail.com">
+          <HiOutlineMailOpen className="Social" id="Mail"></HiOutlineMailOpen>
+        </a>
+        {/* </HiOutlineMailOpen> */}
+        <a href="https://www.instagram.com/whystallone/">
+          {" "}
+          <BsInstagram className="Social" id="Instagram"></BsInstagram>
+        </a>
+        {/* </BsInstagram> */}
+        <a href="">
+          <BsTwitter className="Social" id="Twitter"></BsTwitter>
+        </a>
       </div>
       <div className="Copyright">
         <p>© 2021 Stallone - Proudly Made In 🇮🇳</p>

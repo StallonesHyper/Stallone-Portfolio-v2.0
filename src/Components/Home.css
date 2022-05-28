@@ -34,6 +34,9 @@ h3 {
 }
 
 @media only screen and (max-width: 940px) {
+  .Img {
+    margin-top: none;
+  }
   .HomeAlign {
     flex-direction: column-reverse;
   }

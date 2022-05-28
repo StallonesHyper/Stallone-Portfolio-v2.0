@@ -62,6 +62,21 @@ function Skills() {
               <img src={ReactLogoIcon} alt="" class="TechImg" /> Native
             </li>
           </div>
+
+          <div className="ResponsiveTech">
+            <img src={JS} alt="" class="TechImg" />
+            <img src={Python} alt="" class="TechImg" />
+            <img src={CPP} alt="" class="TechImg" />
+            <img src={TS} alt="" class="TechImg" />
+            <img src={ReactLogoIcon} alt="" class="TechImg" />
+            <img src={Redux} alt="" class="TechImg" />
+            <img src={Saas} alt="" class="TechImg" />
+            <img src={Tailwind} alt="" class="TechImg" />
+            <img src={Next} alt="" class="TechImg" />
+            <img src={GraphQL} alt="" class="TechImg" />
+            <img src={NodeIcon} alt="" class="TechImg" />
+            <img src={ReactLogoIcon} alt="" class="TechImg" />
+          </div>
         </div>
       </div>
     </div>

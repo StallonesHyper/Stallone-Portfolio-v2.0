@@ -2,8 +2,12 @@
   margin: 2.5rem;
 }
 
-.Socials{
-    cursor: pointer;
+.Socials {
+  cursor: pointer;
+}
+
+a {
+  color: black;
 }
 
 #GitHub {
@@ -11,19 +15,32 @@
   padding: 1rem;
 }
 
+#GitHub:hover {
+  color: rgb(59, 59, 59);
+}
+
 #Instagram {
   font-size: 2rem;
   padding: 1rem;
+}
+#Instagram:hover {
+  color: #c13584;
 }
 
 #Twitter {
   font-size: 2rem;
   padding: 1rem;
 }
+#Twitter:hover {
+  color: #1da1f2;
+}
 
 #Mail {
   font-size: 2rem;
   padding: 1rem;
+}
+#Mail:hover {
+  color: #ea4335;
 }
 
 .Copyright {

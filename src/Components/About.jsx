@@ -23,6 +23,9 @@ function About() {
             I'm a Linux Enthusiast and I create visually appealing
             Applications.I'm currently a Full-Time Junior Computer Science
             Student 📚 at Chandigarh University.
+            <br />
+            <br />
+            "do what excites 💫"
           </p>
           <div className="ResumeButton">
             {/* NOTE: Add Resume PDF Download Option */}
